@@ -1,4 +1,6 @@
-This is a preliminary implementation of BIRD: Generalizable Backdoor Detection and Removal for Deep Reinforcement Learning.
+# BIRD: Generalizable Backdoor Detection and Removal for Deep Reinforcement Learning.
+
+This is a preliminary implementation for NeurIPS 2023 paper - BIRD: Generalizable Backdoor Detection and Removal for Deep Reinforcement Learning.
 
 The code is based on and inspired by [PA_AD attack](https://github.com/umd-huang-lab/paad_adv_rl/tree/master) and [TrojDRL](https://github.com/pkiourti/rl_backdoor).
 
@@ -52,5 +54,4 @@ The `trainer_victim/train_repair.py` provides different arguments including:
 - `--kl`: whether add the constraint on KL divergence
 - `--budget`: total time steps for adding restored trigger
 - `--victim-dir`: the path to the backdoored agent to be repaired
-
 
